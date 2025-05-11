@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['target-1', 'target-2']
+
+roboflow:
+  workspace: toughthroat
+  project: rdm_target_detection
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/toughthroat/rdm_target_detection/dataset/2
